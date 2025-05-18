@@ -7,6 +7,6 @@ function verificaridade(idade){
     }
 }
 
-let idade = 20;
+let idade = 17;
 
-console.log(idade(idade))
+console.log(verificaridade(idade))
