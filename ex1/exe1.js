@@ -1,12 +1,12 @@
 function verificaridade(idade){
     if (idade > 0 && idade < 18){
-        return "Menor de idade"
+        return ("Menor de idade");
     }
     else{
-        return "Maior de idade"
+        return ("Maior de idade");
     }
 }
 
 let idade = 17;
 
-console.log(verificaridade(idade))
+console.log(verificaridade(idade));
