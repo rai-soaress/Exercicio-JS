@@ -8,5 +8,7 @@ function verificaridade(idade){
 }
 
 let idade = 17;
+let novaIdade= 22;
 
 console.log(verificaridade(idade));
+console.log(verificaridade(novaIdade))
